@@ -4,7 +4,7 @@ package GoFo;
 import java.util.Scanner;
 public class user {
 	Scanner scan = new Scanner(System.in);
-	String name,ID,password,Email,phone,location; 
+	private String name,ID,password,Email,phone,location; 
 	
 	
 	public void login()
