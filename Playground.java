@@ -1,5 +1,5 @@
 package GoFo;
 
-public class Playground {
-
+public class Playground { i love;
+                         
 }
