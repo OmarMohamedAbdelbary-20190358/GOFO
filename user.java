@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class user {
 	Scanner scan = new Scanner(System.in);
 	private String name,ID,password,Email,phone,location; 
+	private eWallet money;
 	
 	
 	public void login()
@@ -15,6 +16,7 @@ public class user {
 		  Email = scan.nextLine();
 		  phone = scan.nextLine();
 		  location = scan.nextLine();
+		  money.SetMoney(0.0);
 	}
 	public void SetName(String name)
 	{
