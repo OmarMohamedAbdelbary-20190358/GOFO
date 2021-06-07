@@ -1,7 +1,6 @@
 package GoFo;
-
-
 import java.util.Scanner;
+
 public class user {
 	Scanner scan = new Scanner(System.in);
 	private String name,ID,password,Email,phone,location; 
