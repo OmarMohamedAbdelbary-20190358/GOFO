@@ -1,6 +1,6 @@
 package GoFo;
 import java.util.Scanner;
 
-public class owner : public user {
+public class owner extends user {
          
 }
